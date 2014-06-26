@@ -14,6 +14,7 @@ namespace Konami
 
 		public int TotalUsages { get; set; }
 
+
 		public DateTime? ExpirationDateTime { get; set; }
 
 		[Required]

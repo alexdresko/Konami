@@ -8,7 +8,7 @@ namespace Konami.Tests
 
 		public override List<string> GetNamespaces()
 		{
-			return new List<string> {"Konami.Tests"};
+			return null;
 		}
 	}
 }
