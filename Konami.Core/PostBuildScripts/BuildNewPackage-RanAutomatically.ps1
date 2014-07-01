@@ -51,7 +51,7 @@ $additionalPackProperties = ""
 # Do not specify a "-Version" (use $versionNumber above), "-OutputDirectory", or "-NonInteractive", as these are already provided.
 # Do not specify any "-Properties" here; instead use the $additionalPackProperties variable above.
 # Do not specify "-Build", as this may result in an infinite build loop.
-$additionalPackOptions = ""
+$additionalPackOptions = "-Symbols"
 
 #################################################
 # Do Not Edit Anything Past This Point.

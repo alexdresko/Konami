@@ -1,19 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-    <metadata>
-        <id>Konami</id>
-        <title>Konami</title>
-	<version>$version$</version>
-        <authors>Alex Dresko</authors>
-        <owners>Alex Dresko</owners>
-        <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-        <projectUrl>https://github.com/alexdresko/Konami</projectUrl>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>A flexible library for handling dynamic coupon codes, promotional codes, cheat codes, etc...</description>
-        <summary>A flexible library for handling dynamic coupon codes, promotional codes, cheat codes, etc...</summary>
-        <releaseNotes />
-        <copyright>Copyright 2014</copyright>
-        <language>en-US</language>
-    </metadata>
-    <files />
+	<metadata>
+		<id>Konami</id>
+		<title>Konami</title>
+		<version>$version$</version>
+		<authors>Alex Dresko</authors>
+		<owners>Alex Dresko</owners>
+		<projectUrl>https://github.com/alexdresko/Konami</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>A flexible library for handling dynamic coupon codes, promotional codes, cheat codes, etc...</description>
+		<summary>A flexible library for handling dynamic coupon codes, promotional codes, cheat codes, etc...</summary>
+		<releaseNotes />
+		<copyright>Copyright 2014</copyright>
+		<language>en-US</language>
+	</metadata>
+	<files />
 </package>
