@@ -12,7 +12,7 @@
 #		overwrite if prompted, or by providing the "-FileConflictAction Overwrite" parameter when installing. Also, if you do this then your custom changes will be lost. 
 #		It might be easiest to backup the file, uninstall the package, delete any left-over files, reinstall the package, and then re-apply your custom changes.
 #==========================================================
-param ([string]$ProjectFilePath, [string]$OutputDirectory, [string]$Configuration, [string]$Platform)
+param ([string]$ProjectFilePath, [string]$OutputDirectory, [string]$Configuration, [string]$Platform, [string]$VersionNumber)
 
 # Turn on Strict Mode to help catch syntax-related errors.
 # 	This must come after a script's/function's param section.
@@ -30,7 +30,7 @@ $OutputDirectory = $OutputDirectory.TrimEnd('\')
 #################################################
 
 # Specify the version number to use for the NuGet package. If not specified the version number of the assembly being packed will be used.
-$versionNumber = ""
+$versionNumber = $VersionNumber
 
 # Specify any release notes for this package. 
 # These will only be included in the package if you have a .nuspec file for the project in the same directory as the project file.
