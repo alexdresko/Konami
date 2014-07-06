@@ -1,0 +1,1 @@
+﻿& "C:\projects\Git\Konami\Konami.Core\PostBuildScripts\NuGet.exe" pack "C:\projects\Git\Konami\Konami.Core\Konami.Core.csproj" -OutputDirectory "C:\projects\Git\Konami\Konami.Core\bin\Release" -Properties Configuration="Release"`;Platform="AnyCPU" -NonInteractive -Symbols
